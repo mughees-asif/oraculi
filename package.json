@@ -2,7 +2,7 @@
   "name": "oraculi",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://mughees-asif.github.io/oraculi,
+  "homepage": "https://mughees-asif.github.io/oraculi",
   "description": "Oraculi Mentoring | Revolutionising Education",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
