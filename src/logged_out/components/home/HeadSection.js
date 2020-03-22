@@ -113,7 +113,7 @@ function HeadSection(props) {
             >
               <div className={classNames(classes.containerFix, "container")}>
                 <Box justifyContent="space-between" className="row" style={{color: "black"}}>
-                  <Grid item xs={12} md={5}>
+                  <Grid item xs={12} xs={6} >
                     <Box
                       display="flex"
                       flexDirection="column"
@@ -124,6 +124,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                           style={{color: "white"}}
+                          align="center"
                         >
                           Oraculi 
                         </Typography>
@@ -133,6 +134,7 @@ function HeadSection(props) {
                           <Typography
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             style={{color: "white"}}
+                            align="center"
                           >
                             The Future of Online Tuition
                           </Typography>
@@ -156,7 +158,7 @@ function HeadSection(props) {
                     </Box>
                   </Grid>
                   <Hidden smDown>
-                    <Grid item md={6}>
+                    <Grid>
                       <img
                         src={headerImage}
                         className={classes.image}

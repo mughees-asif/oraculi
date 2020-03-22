@@ -69,6 +69,7 @@ const styles = theme => ({
       }
     },
     ".lg-mg-bottom": {
+      alignItems: "center",
       marginBottom: `${theme.spacing(20)}px !important`,
       [theme.breakpoints.down("md")]: {
         marginBottom: `${theme.spacing(18)}px !important`
@@ -81,6 +82,7 @@ const styles = theme => ({
       }
     },
     ".lg-p-top": {
+      alignItems: "center",
       paddingTop: `${theme.spacing(20)}px !important`,
       [theme.breakpoints.down("md")]: {
         paddingTop: `${theme.spacing(18)}px !important`
