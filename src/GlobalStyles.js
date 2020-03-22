@@ -55,6 +55,9 @@ const styles = theme => ({
       maxWidth: 1370,
       alignItems: "center"
     },
+    ".background-image": {
+      backgroundImage: "../../dummy_data/images/headerImage.png"
+    },
     ".lg-mg-top": {
       alignItems: "center",
       marginTop: `${theme.spacing(20)}px !important`,
