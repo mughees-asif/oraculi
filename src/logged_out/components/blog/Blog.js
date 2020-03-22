@@ -1,3 +1,10 @@
+
+
+// **************************************** //
+// make a new style and add to image and text
+// **************************************** //
+
+
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
