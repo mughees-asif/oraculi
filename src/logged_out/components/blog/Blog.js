@@ -1,7 +1,17 @@
 import React, { PureComponent } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { Grid, Box, isWidthUp, withWidth, withStyles } from "@material-ui/core";
+import {
+  Grid,
+  Typography,
+  Card,
+  Button,
+  Hidden,
+  Box,
+  withStyles,
+  withWidth,
+  isWidthUp
+} from "@material-ui/core";
 import BlogCard from "./BlogCard";
 
 const styles = theme => ({
@@ -29,57 +39,12 @@ class Blog extends PureComponent {
     selectBlog();
   }
 
-  getVerticalBlogposts = () => {
-    const { width, blogPosts } = this.props;
-    const gridRows = [[], [], []];
-    let rows;
-    let xs;
-    if (isWidthUp("md", width)) {
-      rows = 3;
-      xs = 4;
-    } else if (isWidthUp("sm", width)) {
-      rows = 2;
-      xs = 6;
-    } else {
-      rows = 1;
-      xs = 12;
-    }
-    blogPosts.forEach((blogPost, index) => {
-      gridRows[index % rows].push(
-        <Grid key={blogPost.id} item xs={12}>
-          <Box mb={3}>
-            <BlogCard
-              src={blogPost.imageSrc}
-              title={blogPost.title}
-              snippet={blogPost.snippet}
-              date={blogPost.date}
-              url={blogPost.url}
-            />
-          </Box>
-        </Grid>
-      );
-    });
-    return gridRows.map((element, index) => (
-      <Grid key={index} item xs={xs}>
-        {element}
-      </Grid>
-    ));
-  };
-
   render() {
-    const { classes } = this.props;
+    const { classes, width } = this.props;
     return (
-      <Box
-        display="flex"
-        justifyContent="center"
-        className={classNames(classes.wrapper, "lg-p-top")}
-      >
-        <div className={classes.blogContentWrapper}>
-          <Grid container spacing={3}>
-            {this.getVerticalBlogposts()}
-          </Grid>
-        </div>
-      </Box>
+       <div className={classNames("lg-p-top", classes.wrapper)}>
+        
+      </div>
     );
   }
 }
