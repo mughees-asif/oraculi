@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { makeStyles } from '@material-ui/core/styles';
 import {
   Grid,
   Typography,
@@ -148,8 +147,8 @@ function HeadSection(props) {
                           classes={{ label: classes.extraLargeButtonLabel }}
 
                           // -------------------------------------------------- //
-                          // Connect button to features section
-                          // href="/#FeatureSection"
+                          // Connect button to about us section
+                             href="/blog"
                           // -------------------------------------------------- //
 
                         >
