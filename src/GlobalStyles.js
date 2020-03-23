@@ -58,7 +58,7 @@ const styles = theme => ({
     ".polaroid": {
       width: "75%",
       backgroundColor: "black",
-      boxShadow: "white",
+      boxShadow: "10px 10px grey",
       marginTop: "25px",
       marginBottom: "25px",
       alignItems: "center"
