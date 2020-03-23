@@ -54,7 +54,7 @@ typings/
 .eslintcache
 
 # exclude folder
-/exclude/*
+./exclude/*
 
 # Microbundle cache
 .rpt2_cache/
