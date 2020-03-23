@@ -38,20 +38,19 @@ export default function MediaCard() {
             managing students, monitoring sessions, handling reviews, transaction histories, and invoices to give you 
             full control to make your business a success.</p>
             <div className="container-icons" >
-            <PaymentIcon style={{ fontSize: 100, color: "blue" }} /> </div>
-            <div className="container-icons" >
-            Powered by Stripe payment to accept all credit and debit cards, including foreign transactions 
-            to make payments secure and efficient.</div>
-            <div className="container-icons" ><NotificationsActiveIcon  style={{ fontSize: 100, color: "white" }} /></div>Our automatic notification system makes 
-            sure tutors and students never miss a session by sending instant emails and SMS notifications 
-            for session bookings, payment confirmation, and more.
+              <PaymentIcon style={{ fontSize: 100, color: "blue" }} />
+              <ol>Powered by Stripe payment to accept all credit and debit cards, including foreign transactions 
+                  to make payments secure and efficient.</ol></div>
+             <div className="container-icons" > 
+              <NotificationsActiveIcon  style={{ fontSize: 100, color: "white" }} />         
+              <ol>Automatic text-notification system ensures never missing a session.</ol></div>
             <div className="container-icons" ><ScheduleIcon style={{ fontSize: 100, color: "green" }} /><ol>Personalised to fit any schedule.</ol></div>
             <div className="container-icons" ><AssessmentIcon style={{ fontSize: 100, color: "red" }} /><ol>Advanced analytics allows for real-time tracking.</ol></div>
         </Typography>
        </Card>
       </div> 
       </div>    
-      <div className="container" display ="flex" flexDirection="row" justifyContent="center" >
+      <div className="container-icons">
         <img
         src={bottomHeaderImage}
         className={classes.image}
@@ -62,6 +61,3 @@ export default function MediaCard() {
     </div>
   );
 }
-
-
-
