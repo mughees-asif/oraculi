@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c70db878c428332959f60cbe9168b1f",
+    "revision": "3a086fbec431679e7128f9f14fd697ee",
     "url": "/oraculi/index.html"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oraculi/static/js/1.280bbfd0.chunk.js"
   },
   {
-    "revision": "af6d79ad4603abea7c1d",
-    "url": "/oraculi/static/js/10.0b8a4a8b.chunk.js"
+    "revision": "11125f78031755c4fb19",
+    "url": "/oraculi/static/js/10.71b16252.chunk.js"
   },
   {
     "revision": "11d65f9c007b240d05cb",
@@ -120,8 +120,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/oraculi/static/js/main.1926fe70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "57de2426d2414644dca9",
-    "url": "/oraculi/static/js/runtime-main.59eb0e92.js"
+    "revision": "9d20a815e9794cf16554",
+    "url": "/oraculi/static/js/runtime-main.bb8e5fc8.js"
   },
   {
     "revision": "2b466f14430eac13337c9452ff05635c",
