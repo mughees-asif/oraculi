@@ -39,6 +39,24 @@ const styles = theme => ({
         maxWidth: 1170
       }
     },
+    ".container-icons": {
+      width: "100%",
+      display: "flex",
+      justifyContent: "center",
+      paddingRight: theme.spacing(4),
+      paddingLeft: theme.spacing(4),
+      marginRight: "auto",
+      marginLeft: "auto",
+      [theme.breakpoints.up("sm")]: {
+        maxWidth: 540
+      },
+      [theme.breakpoints.up("md")]: {
+        maxWidth: 720
+      },
+      [theme.breakpoints.up("lg")]: {
+        maxWidth: 1170
+      }
+    },
     ".row": {
       display: "flex",
       alignItems: "center",

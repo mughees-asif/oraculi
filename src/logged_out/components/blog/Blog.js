@@ -1,10 +1,12 @@
 import React from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import topAboutUsImage from "../../dummy_data/images/topAboutUsImage.png";
-import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import bottomHeaderImage from "../../dummy_data/images/bottomHeaderImage.png";
 import { Typography, Card } from "@material-ui/core";
-import { AssessmentIcon, PaymentIcon } from '@material-ui/icons/Assessment';
+import AssessmentIcon from '@material-ui/icons/Assessment';
+import NotificationsActiveIcon from '@material-ui/icons/NotificationsActive';
+import PaymentIcon from '@material-ui/icons/Payment';
+import ScheduleIcon from '@material-ui/icons/Schedule';
 
 const useStyles = makeStyles({
 
@@ -35,12 +37,16 @@ export default function MediaCard() {
             <p>As a tutoring company you can use our simple CRM dashboard to manage daily operations such as contaacting tutors, 
             managing students, monitoring sessions, handling reviews, transaction histories, and invoices to give you 
             full control to make your business a success.</p>
-            <ol><PaymentIcon style={{ fontSize: 100, color: "blue" }} />Powered by Stripe payment to accept all credit and debit cards, including foreign transactions 
-            to make payments secure and efficient.</ol>
-            <ol>Our automatic notification system makes sure tutors and students never miss a session by sending instant emails and SMS notifications 
-            for session bookings, payment confirmation, and more.</ol>
-            <ol>Personalised profiles to fit any schedule.</ol>
-            <ol><AssessmentIcon style={{ fontSize: 100, color: "red" }} /> Advanced analytics allows for real-time tracking.</ol>
+            <div className="container-icons" >
+            <PaymentIcon style={{ fontSize: 100, color: "blue" }} /> </div>
+            <div className="container-icons" >
+            Powered by Stripe payment to accept all credit and debit cards, including foreign transactions 
+            to make payments secure and efficient.</div>
+            <div className="container-icons" ><NotificationsActiveIcon  style={{ fontSize: 100, color: "white" }} /></div>Our automatic notification system makes 
+            sure tutors and students never miss a session by sending instant emails and SMS notifications 
+            for session bookings, payment confirmation, and more.
+            <div className="container-icons" ><ScheduleIcon style={{ fontSize: 100, color: "green" }} /><ol>Personalised to fit any schedule.</ol></div>
+            <div className="container-icons" ><AssessmentIcon style={{ fontSize: 100, color: "red" }} /><ol>Advanced analytics allows for real-time tracking.</ol></div>
         </Typography>
        </Card>
       </div> 
