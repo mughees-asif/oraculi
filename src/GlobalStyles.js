@@ -55,8 +55,16 @@ const styles = theme => ({
       maxWidth: 1370,
       alignItems: "center"
     },
-    ".background-image": {
-      backgroundImage: "../../dummy_data/images/headerImage.png"
+    ".polaroid": {
+      width: "75%",
+      backgroundColor: "black",
+      boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)",
+      marginTop: "25px",
+      marginBottom: "25px",
+      alignItems: "center"
+    },
+    ".container-image":  {
+      backgroundColor: "white"
     },
     ".lg-mg-top": {
       alignItems: "center",
