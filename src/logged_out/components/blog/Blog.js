@@ -42,7 +42,8 @@ export default function MediaCard() {
 
   return (
    <div style={{ backgroundColor: "black" }}>
-    <div className="polaroid"  display ="flex" flexDirection="row" justifyContent="center"  style={{ backgroundColor: "black" }}>
+   <div className="container">
+    <div className="polaroid" display ="flex" flexDirection="row" style={{ backgroundColor: "black" }}>
         <img
           src={topAboutUsImage}
           className={classes.image}
@@ -51,10 +52,10 @@ export default function MediaCard() {
         />
     </div>
     <div className="container-image" style= {{ width:"100%" }} style={{ backgroundColor: "black" }}>
-      <Typography gutterBottom variant="h1">
+      <Typography gutterBottom variant="h1" style={{ color: "white" }}>
         About Us
       </Typography>
-      <Typography variant="body1" color="white" component="p">
+      <Typography variant="body1" color="white" component="p" style={{ color: "white" }}>
           A complete innovative online tutoring software that will seamlessly transform your tutoring company 
           into a virtual masterpiece. Using online classrooms, machine learning, data analytics, automated booking 
           systems, and real-time collaboration you can run your entire tutoring company from anywhere in the world 
@@ -89,7 +90,8 @@ export default function MediaCard() {
       className={classes.image}
       alt="bottomHeaderImage example"
     />
-     </div>
+ </div>
+ </div>
   );
 }
 
