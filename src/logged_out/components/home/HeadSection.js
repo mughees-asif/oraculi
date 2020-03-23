@@ -113,7 +113,7 @@ function HeadSection(props) {
             >
               <div className={classNames(classes.containerFix, "container")}>
                 <Box justifyContent="space-between" className="row" style={{color: "black"}}>
-                  <Grid item xs={12} xs={6} >
+                  <Grid item xs={12} lg={6}>
                     <Box
                       display="flex"
                       flexDirection="column"
