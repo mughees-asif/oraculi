@@ -42,28 +42,29 @@ export default function MediaCard() {
 
   return (
    <div style={{ backgroundColor: "black" }}>
-   <div className="container">
-    <div className="polaroid" display ="flex" flexDirection="row" style={{ backgroundColor: "black" }}>
-        <img
-          src={topAboutUsImage}
-          className={classes.image}
-          style={{ width: '50rem' }}
-          alt="topAboutUsImage example"
-        />
+    <div className="container" >
+      <div className="polaroid" display ="flex" flexDirection="row" style={{ backgroundColor: "black" }}>
+          <img
+            src={topAboutUsImage}
+            className={classes.image}
+            style={{ width: '50rem' }}
+            alt="topAboutUsImage example"
+          />
+      </div>
     </div>
+    <div className="container">
     <div className="container-image" style= {{ width:"100%" }} style={{ backgroundColor: "black" }}>
       <Typography gutterBottom variant="h1" style={{ color: "white" }}>
         About Us
       </Typography>
-      <Typography variant="body1" color="white" component="p" style={{ color: "white" }}>
-          A complete innovative online tutoring software that will seamlessly transform your tutoring company 
-          into a virtual masterpiece. Using online classrooms, machine learning, data analytics, automated booking 
-          systems, and real-time collaboration you can run your entire tutoring company from anywhere in the world 
-          while keeping track of everything that is happening under your virtual roof!
-          As a tutoring company you can use our effective and simple admin dashboard to manage the daily operations such as tutors, 
+      <Typography variant="h5" color="white" component="p" style={{ color: "white" }}>
+          <p>A tutoring software that will seamlessly transform remote education b integrating 
+          online classrooms, Machine Learning, Data Analytics, Automated booking 
+          systems, and real-time collaboration, where, keeping track of everything is happening under your virtual roof!</p>
+          <p>As a tutoring company you can use our effective and simple admin dashboard to manage the daily operations such as tutors, 
           students, sessions, course managements with ratings, reviews, transaction histories, invoices and a complete CRM to give you 
-          full control to make your business a success.
-          In addition to that, Oraculi is powered by Stripe payment to accept all credit and debit cards including foreign transactions 
+          full control to make your business a success.</p>
+          <p>In addition to that, Oraculi is powered by Stripe payment to accept all credit and debit cards including foreign transactions 
           to make payments easy and efficient.
           Our automatic notification system makes sure tutors and students never miss a session by sending instant emails and SMS notifications 
           for session bookings, payment confirmation, and more.
@@ -82,14 +83,17 @@ export default function MediaCard() {
           If your tutoring company decides to stick with old-fashioned ways of teaching (without the use of an online whiteboard). Oraculi is still an 
           amazing addition to your company as our software solves the matching, scheduling, collaboration and payment inefficiencies in any tutoring company
           by providing all the tools needed to expand an offline tutoring service.
-          As our software is developed by our CTO himself, we can add, remove or modify any feature as per your business requirements such as themes and branding. 
+          As our software is developed by our CTO himself, we can add, remove or modify any feature as per your business requirements such as themes and branding.</p> 
       </Typography>
     </div>
+    <div className="polariod">
       <img
       src={bottomHeaderImage}
       className={classes.image}
       alt="bottomHeaderImage example"
+      style={{ width: '20rem' }}
     />
+    </div>
  </div>
  </div>
   );

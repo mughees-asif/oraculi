@@ -63,9 +63,6 @@ const styles = theme => ({
       marginBottom: "25px",
       alignItems: "center"
     },
-    ".container-image":  {
-      backgroundColor: "white"
-    },
     ".lg-mg-top": {
       alignItems: "center",
       marginTop: `${theme.spacing(20)}px !important`,
