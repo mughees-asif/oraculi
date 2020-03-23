@@ -45,6 +45,7 @@ const styles = theme => ({
       justifyContent: "center",
       paddingRight: theme.spacing(4),
       paddingLeft: theme.spacing(4),
+      paddingBottom: theme.spacing(3),
       marginRight: "auto",
       marginLeft: "auto",
       [theme.breakpoints.up("sm")]: {

@@ -39,13 +39,12 @@ export default function MediaCard() {
             full control to make your business a success.</p>
             <div className="container-icons" >
               <PaymentIcon style={{ fontSize: 100, color: "blue" }} />
-              <ol>Powered by Stripe payment to accept all credit and debit cards, including foreign transactions 
-                  to make payments secure and efficient.</ol></div>
+              <ol>Powered by Stripe payment</ol></div>
              <div className="container-icons" > 
               <NotificationsActiveIcon  style={{ fontSize: 100, color: "white" }} />         
-              <ol>Automatic text-notification system ensures never missing a session.</ol></div>
-            <div className="container-icons" ><ScheduleIcon style={{ fontSize: 100, color: "green" }} /><ol>Personalised to fit any schedule.</ol></div>
-            <div className="container-icons" ><AssessmentIcon style={{ fontSize: 100, color: "red" }} /><ol>Advanced analytics allows for real-time tracking.</ol></div>
+              <ol>Automatic text-notification system</ol></div>
+            <div className="container-icons" ><ScheduleIcon style={{ fontSize: 100, color: "green" }} /><ol>Machine Learning algorithms suggest improvements</ol></div>
+            <div className="container-icons" ><AssessmentIcon style={{ fontSize: 100, color: "red" }} /><ol>Advanced analytics allows for real-time tracking</ol></div>
         </Typography>
        </Card>
       </div> 
