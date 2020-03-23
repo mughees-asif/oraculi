@@ -54,11 +54,11 @@ export default function MediaCard() {
   const classes = useStyles();
 
   return (
-    <div className="container-fluid" color="secondary">
+    <div className="container-fluid" color="black" display="flex" flexDirection="column">
               <img
                 src={topAboutUsImage}
                 className={classes.image}
-                style={{paddingTop: "5rem", width: '50rem', position: 'relative'}}
+                style={{paddingTop: "5rem", width: '50rem', position: 'center'}}
                 alt="topAboutUsImage example"
               />
 
