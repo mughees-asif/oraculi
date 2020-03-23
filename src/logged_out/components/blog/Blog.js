@@ -1,10 +1,4 @@
 
-
-// **************************************** //
-// make a new style and add to image and text
-// **************************************** //
-
-
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
@@ -19,7 +13,7 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-import topAboutUsImage from "../../dummy_data/images/topAboutUsImage.jpg";
+import topAboutUsImage from "../../dummy_data/images/topAboutUsImage.png";
 import bottomHeaderImage from "../../dummy_data/images/bottomHeaderImage.png";
 import {
   Grid,
