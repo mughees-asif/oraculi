@@ -1,4 +1,4 @@
-import React, { Fragment, useLayoutEffect, useState } from "react";
+import React, { Fragment } from "react";
 import { makeStyles } from '@material-ui/core/styles';
 import topAboutUsImage from "../../dummy_data/images/topAboutUsImage.png";
 import bottomHeaderImage from "../../dummy_data/images/bottomHeaderImage.png";
