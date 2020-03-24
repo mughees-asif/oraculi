@@ -6,8 +6,8 @@
     "static/js/1.280bbfd0.chunk.js.map": "/oraculi/static/js/1.280bbfd0.chunk.js.map",
     "main.js": "/oraculi/static/js/main.1926fe70.chunk.js",
     "main.js.map": "/oraculi/static/js/main.1926fe70.chunk.js.map",
-    "runtime-main.js": "/oraculi/static/js/runtime-main.b2eb7ab0.js",
-    "runtime-main.js.map": "/oraculi/static/js/runtime-main.b2eb7ab0.js.map",
+    "runtime-main.js": "/oraculi/static/js/runtime-main.08406165.js",
+    "runtime-main.js.map": "/oraculi/static/js/runtime-main.08406165.js.map",
     "static/js/4.0edc4beb.chunk.js": "/oraculi/static/js/4.0edc4beb.chunk.js",
     "static/js/4.0edc4beb.chunk.js.map": "/oraculi/static/js/4.0edc4beb.chunk.js.map",
     "static/css/5.b43cacbf.chunk.css": "/oraculi/static/css/5.b43cacbf.chunk.css",
@@ -22,8 +22,8 @@
     "static/js/8.ea08b733.chunk.js.map": "/oraculi/static/js/8.ea08b733.chunk.js.map",
     "static/js/9.d7b63abb.chunk.js": "/oraculi/static/js/9.d7b63abb.chunk.js",
     "static/js/9.d7b63abb.chunk.js.map": "/oraculi/static/js/9.d7b63abb.chunk.js.map",
-    "static/js/10.7f898565.chunk.js": "/oraculi/static/js/10.7f898565.chunk.js",
-    "static/js/10.7f898565.chunk.js.map": "/oraculi/static/js/10.7f898565.chunk.js.map",
+    "static/js/10.e3729d14.chunk.js": "/oraculi/static/js/10.e3729d14.chunk.js",
+    "static/js/10.e3729d14.chunk.js.map": "/oraculi/static/js/10.e3729d14.chunk.js.map",
     "static/js/11.28254bcc.chunk.js": "/oraculi/static/js/11.28254bcc.chunk.js",
     "static/js/11.28254bcc.chunk.js.map": "/oraculi/static/js/11.28254bcc.chunk.js.map",
     "static/js/12.9f2115c5.chunk.js": "/oraculi/static/js/12.9f2115c5.chunk.js",
@@ -45,7 +45,7 @@
     "static/js/20.4f4fb55f.chunk.js": "/oraculi/static/js/20.4f4fb55f.chunk.js",
     "static/js/20.4f4fb55f.chunk.js.map": "/oraculi/static/js/20.4f4fb55f.chunk.js.map",
     "index.html": "/oraculi/index.html",
-    "precache-manifest.5fd7eee35c0cf4e342b8e6cb60585f3c.js": "/oraculi/precache-manifest.5fd7eee35c0cf4e342b8e6cb60585f3c.js",
+    "precache-manifest.57cdfc098e6b4fdafb1914eed72a511c.js": "/oraculi/precache-manifest.57cdfc098e6b4fdafb1914eed72a511c.js",
     "service-worker.js": "/oraculi/service-worker.js",
     "static/css/5.b43cacbf.chunk.css.map": "/oraculi/static/css/5.b43cacbf.chunk.css.map",
     "static/css/8.4707e12a.chunk.css.map": "/oraculi/static/css/8.4707e12a.chunk.css.map",
@@ -76,7 +76,7 @@
     "static/media/topAboutUsImage.png": "/oraculi/static/media/topAboutUsImage.74cd695d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b2eb7ab0.js",
+    "static/js/runtime-main.08406165.js",
     "static/js/6.008d0568.chunk.js",
     "static/js/main.1926fe70.chunk.js"
   ]
