@@ -30,25 +30,33 @@ export default function MediaCard() {
     <div className="container">
       <div className="container-image" style= {{ width:"100%" }}>
           <Card variant="outlined" style={{ backgroundColor: "black" }} >
-        <Typography variant="h5" component="p" style={{ color: "white" }}>
-            <p>Tutoring software that will seamlessly transform remote education by integrating 
-            online classrooms, Machine Learning, Data Analytics, Automated booking 
-            systems, and real-time collaboration, where, keeping track of everything is happening under your virtual roof!</p>
-            <p>As a tutoring company you can use our simple CRM dashboard to manage daily operations such as contaacting tutors, 
-            managing students, monitoring sessions, handling reviews, transaction histories, and invoices to give you 
-            full control to make your business a success.</p>
-            <div className="container-icons" >
-              <PaymentIcon style={{ fontSize: 100, color: "blue" }} />
-              <ol>Powered by Stripe payment</ol></div>
-             <div className="container-icons" > 
-              <NotificationsActiveIcon  style={{ fontSize: 100, color: "white" }} />         
-              <ol>Automatic text-notification system</ol></div>
-            <div className="container-icons" ><ScheduleIcon style={{ fontSize: 100, color: "green" }} /><ol>Machine Learning algorithms suggest improvements</ol></div>
-            <div className="container-icons" ><AssessmentIcon style={{ fontSize: 100, color: "red" }} /><ol>Advanced analytics allows for real-time tracking</ol></div>
-        </Typography>
-       </Card>
-      </div> 
-      </div>    
+            <Typography variant="h5" component="p" style={{ color: "white" }}>
+              <p>Tutoring software that will seamlessly transform remote education by integrating 
+                online classrooms, Machine Learning, Data Analytics, Automated booking 
+                systems, and real-time collaboration, where, keeping track of everything is happening under your virtual roof!</p>
+                <p>As a tutoring company you can use our simple CRM dashboard to manage daily operations such as contaacting tutors, 
+                managing students, monitoring sessions, handling reviews, transaction histories, and invoices to give you 
+                full control.</p>
+              <div className="container-icons" >
+                  <PaymentIcon style={{ fontSize: 100, color: "blue" }} />
+                    <ol>Powered by Stripe payment</ol>
+              </div>
+               <div className="container-icons" > 
+                  <NotificationsActiveIcon  style={{ fontSize: 100, color: "white" }} />         
+                    <ol>Automatic text-notification system</ol>
+              </div>
+              <div className="container-icons" >
+                <ScheduleIcon style={{ fontSize: 100, color: "green" }} />
+                  <ol>Machine Learning algorithms suggest improvements</ol>
+              </div>
+              <div className="container-icons" >
+                <AssessmentIcon style={{ fontSize: 100, color: "red" }} />
+                  <ol>Advanced analytics allows for real-time tracking</ol>
+              </div>
+            </Typography>
+          </Card>
+       </div> 
+    </div>    
       <div className="container-icons">
         <img
         src={bottomHeaderImage}
