@@ -18,7 +18,7 @@ export default function MediaCard() {
   return (
    <div style={{ backgroundColor: "black" }}>
     <div className="container" >
-      <div className="container" display ="flex" flexDirection="row" style={{ paddingTop: "5rem" }}>
+      <div className="container" display ="flex" flexDirection="row" style={{ paddingTop: "5rem", position: "relative" }}>
           <img
             src={topAboutUsImage}
             className={classes.image}
@@ -62,7 +62,7 @@ export default function MediaCard() {
         src={bottomHeaderImage}
         className={classes.image}
         alt="bottomHeaderImage example"
-        style={{ width: '20rem' }}
+        style={{ width: '15rem' }}
         />
       </div>
     </div>
